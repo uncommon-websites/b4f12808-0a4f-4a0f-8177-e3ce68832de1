@@ -6,28 +6,37 @@
   <div class="container-custom flex flex-col items-center text-center">
     
     <!-- Badge -->
-    <a href="#" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-green-50 border border-green-100 text-green-600 text-xs font-medium mb-8 hover:bg-green-100 transition-colors">
-      Introducing the new Plain AI suite
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-    </a>
+    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 text-gray-700 text-xs font-medium mb-8">
+      <span class="flex items-center gap-1">
+        <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+        Trusted by 140+ consumer brands
+      </span>
+    </div>
 
     <!-- Headline -->
-    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6 max-w-4xl mx-auto leading-[1.1]">
-      <span class="text-plain-green">10x</span> your support <br class="hidden md:block" /> not your team
+    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6 max-w-5xl mx-auto leading-[1.1]">
+      Autonomous AI employees for <br class="hidden md:block" /> 
+      <span class="relative inline-block">
+        customer operations
+        <svg class="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 400 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 10C50 5 150 2 200 5C250 8 350 4 398 8" stroke="oklch(0.696 0.17 162.48)" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </span>
     </h1>
 
     <!-- Subheadline -->
-    <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-      Plain is the fastest support platform ever built, backed by a world-class API. Start fast. Scale fearlessly.
+    <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-3xl mx-auto leading-relaxed">
+      Self-assembling AI platform that manages omnichannel engagement and workflows. 
+      <span class="font-semibold text-gray-700">72 hours to deploy. 90 days to 90% automation.</span> Zero engineering lift.
     </p>
 
     <!-- Buttons -->
     <div class="flex flex-col sm:flex-row items-center gap-4 mb-20">
-      <a href="#" class="px-6 py-3 text-sm font-bold bg-plain-green text-white rounded hover:bg-green-400 transition-colors uppercase tracking-wide shadow-sm shadow-green-200">
+      <a href="mailto:prashanth@sagepilot.ai" class="px-6 py-3 text-sm font-bold bg-black text-white rounded hover:bg-gray-800 transition-colors uppercase tracking-wide shadow-lg">
         Book a Demo
       </a>
-      <a href="#" class="px-6 py-3 text-sm font-bold border border-gray-200 text-gray-700 rounded hover:border-gray-400 transition-colors uppercase tracking-wide bg-white">
-        14 Day Free Trial
+      <a href="mailto:support@sagepilot.ai" class="px-6 py-3 text-sm font-bold border border-gray-300 text-gray-700 rounded hover:border-gray-400 transition-colors uppercase tracking-wide bg-white">
+        Contact Sales
       </a>
     </div>
 
@@ -42,7 +51,7 @@
         </div>
         <div class="flex-1 text-center">
           <div class="inline-flex items-center justify-center px-3 py-0.5 rounded bg-white border border-gray-200 text-[10px] text-gray-400 font-mono shadow-sm">
-            plain.com/app
+            sagepilot.ai/platform
           </div>
         </div>
       </div>
@@ -94,17 +103,18 @@
                 <div class="bg-[#1C1C1C] rounded-lg p-4 text-gray-300 shadow-xl border border-gray-800 max-w-2xl mx-auto mt-8">
                     <div class="flex items-center justify-between mb-4 border-b border-gray-700 pb-3">
                         <div class="flex items-center gap-2 text-xs font-medium text-gray-400">
-                            <div class="w-4 h-4 rounded-full bg-plain-green flex items-center justify-center text-black font-bold">A</div>
-                            Ask Sidekick
+                            <div class="w-4 h-4 rounded-full bg-primary flex items-center justify-center text-white font-bold text-[10px]">AI</div>
+                            AI Employee Assistant
                         </div>
-                        <div class="text-[10px] text-gray-500">ESC to close</div>
+                        <div class="text-[10px] text-gray-500">⌘K</div>
                     </div>
                     <div class="space-y-3 mb-6">
-                        <div class="h-2 w-3/4 bg-gray-700 rounded opacity-50"></div>
-                        <div class="h-2 w-1/2 bg-gray-700 rounded opacity-50"></div>
+                        <div class="text-sm text-gray-300">Analyzing customer conversation patterns...</div>
+                        <div class="text-xs text-gray-500">• 47 conversations processed today</div>
+                        <div class="text-xs text-gray-500">• 3 escalations identified</div>
                     </div>
                     <div class="relative">
-                        <input type="text" placeholder="How can I help you today?" class="w-full bg-transparent border-none text-sm text-white placeholder-gray-500 focus:ring-0 p-0" />
+                        <input type="text" placeholder="Ask me anything about your customers..." class="w-full bg-transparent border-none text-sm text-white placeholder-gray-500 focus:ring-0 p-0" />
                         <div class="absolute right-0 top-0 flex gap-2">
                              <div class="w-4 h-4 border border-gray-600 rounded text-[10px] flex items-center justify-center text-gray-500">↵</div>
                         </div>

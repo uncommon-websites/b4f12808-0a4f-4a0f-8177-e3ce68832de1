@@ -4,16 +4,15 @@
       <!-- Text Content -->
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gray-200 text-xs font-bold uppercase tracking-wide mb-6">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          Lookup
-          <span class="text-gray-400 border-l border-gray-200 pl-2 ml-1">POWERED BY CURSOR</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          Intelligence Layer
         </div>
-        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">Answer anything</h2>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">Insights that compound</h2>
         <p class="text-lg text-gray-500 mb-8 leading-relaxed">
-          Stop asking engineers to check the code for answers – just ask the code yourself. Cursor Lookup connects support directly to your codebase. Get definitive, code-accurate answers in minutes instead of engineering escalations.
+          Every interaction makes the system smarter. Automatically surface trends, detect churn signals, identify opportunities—all without manual analysis or reporting dashboards.
         </p>
-        <a href="#" class="inline-flex items-center text-sm font-bold text-green-500 uppercase tracking-wide hover:text-green-600">
-          Discover Lookup <span class="ml-2">→</span>
+        <a href="mailto:prashanth@sagepilot.ai" class="inline-flex items-center text-sm font-bold text-primary uppercase tracking-wide hover:text-primary-dark">
+          Learn More <span class="ml-2">→</span>
         </a>
       </div>
 
@@ -58,8 +57,8 @@
                  <span>Cedar: Slack API thread creation failing</span>
              </div>
          </div>
-         <h3 class="font-bold text-gray-900 mb-2">Detect trends</h3>
-         <p class="text-sm text-gray-500">Spot recurring issues, trends, and opportunities across every conversation - without lifting a finger.</p>
+         <h3 class="font-bold text-gray-900 mb-2">Automatic trend detection</h3>
+         <p class="text-sm text-gray-500">AI identifies patterns and opportunities across conversations—no manual reporting or dashboard monitoring needed.</p>
       </div>
 
       <div class="bg-gray-50 rounded-xl p-6 border border-gray-100">
